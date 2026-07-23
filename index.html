@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Musik | Shivpratap Maurya</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="utility.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container flex">
+    <div class="left border">
+      <div class="close">
+        <img width="30" class="inv" src="/assets/images/close.svg" alt="">
+      </div>
+
+      <div class="home bg-grey m-1 rounded p-1">
+        <div class="logo">Muz<span>ix</span></div>
+        <ul>
+          <li>
+            <img class="inv" src="assets/images/home.svg" alt="home" />
+            Home
+          </li>
+        </ul>
+      </div>
+      <div class="library bg-grey rounded m-1 p-1">
+        <div class="heading">
+          <img class="inv" src="assets/images/playlist.svg" alt="" />
+          <h2>Your Library</h2>
+        </div>
+        <div class="songlist">
+          <ul>
+
+          </ul>
+        </div>
+        <div class="footer">
+          <div><a href="https://github.com/shivpratap-py">Github</a></div>
+          <div>
+            <a href="https://www.linkedin.com/in/shivpratap-maurya/">LinkedIn</a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/shivpratap.py/">Instagram</a>
+          </div>
+          <div>
+            <a href="https://leetcode.com/u/shivpratap-py/">LeetCode</a>
+          </div>
+          <!-- <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div> -->
+        </div>
+      </div>
+    </div>
+    <div class="right bg-grey rounded m-1">
+      <div class="header rounded">
+        <div class="nav">
+          <div class="imgspace">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="currentColor"
+            fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="currentColor"
+          fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"></path>
+        </svg>
+      </div>
+      <div class="hamburger flex">
+        <img src="/assets/images/hamburger.svg" alt="">
+      </div>
+        </div>
+      </div>
+      <div class="playlist">
+        <h1>Playlist</h1>
+        <div class="cardContainer">
+          <div class="card">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c1b591c565907f24838477047" alt="" />
+            <h2>Bhole Bhandari</h2>
+            <p>Goosebumps Guranteed</p>
+            <div class="play">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 20V4L19 12L5 20Z" fill="#000" stroke="#000" stroke-width="1.5" stroke-linejoin="round" />
+              </svg>
+            </div>
+          </div>
+          
+          </div>
+          
+        </div>
+        <div class="playbar">
+          <div class="seekbar">
+            <div class="progress"></div>
+            <div class="circle">
+
+            </div>
+          </div>
+          <div class="info ">
+            <div class="songinfo">
+
+            </div>
+            <div class="songtime"></div>
+          </div>
+          <div class="songbuttons flex" style="align-items: center;">
+            <div class="mainbtn">
+            <img class="bbtn" width="35" id="previous" src="assets/images/prevsong.svg" alt="" />
+            <img class="bbtn" width="35" id="play" src="assets/images/play.svg" alt="" />
+            <img class="bbtn" width="35" id="next" src="assets/images/next.svg" alt="" />
+            </div>
+            <div class="volume">
+              <img src="/assets/images/volume.svg" alt="">
+              <div class="range">
+                <input type="range" name="volume" id="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
