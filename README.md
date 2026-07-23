@@ -35,7 +35,7 @@ https://muzixbyshiv.netlify.app/
 
 **Shivpratap Maurya**
 
-GitHub: https://github.com/shivpratap-py
+Instagram: https://www.instagram.com/shivpratap.py/
 
 LinkedIn: https://www.linkedin.com/in/shivpratap-maurya/
 
